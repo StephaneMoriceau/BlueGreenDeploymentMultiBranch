@@ -15,7 +15,7 @@ spec:
         app: twitter-feed
         commit: ${WERCKER_GIT_COMMIT}
         color: green
-        approved: true
+        status: approved
     spec:
       containers:
       - name: twitter-feed
