@@ -16,7 +16,7 @@ build:
 
 
 #Push the docker image with our built and tested application to the Oracle Container Registry
-push-releaseprod:
+push-release:
   steps:
     - internal/docker-push:
         username: $DOCKER_USERNAME
