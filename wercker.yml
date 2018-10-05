@@ -6,7 +6,7 @@ box:
     - $PORT
 
 #Build our application using Maven, just as we always have
-build-prod:
+build:
   steps:
     - install-packages:
         packages: maven
